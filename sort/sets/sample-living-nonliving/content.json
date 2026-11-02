@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "type": "sort",
+  "slug": "sample-living-nonliving",
+  "title": "Living or Nonliving?",
+  "directions": "Drag each card to the group where it belongs. When every card is sorted, press Check.",
+  "directionsAudio": "",
+  "categories": [
+    {
+      "id": "c1",
+      "label": "Living",
+      "image": "media/tree.svg",
+      "imageAlt": "A green tree",
+      "audio": ""
+    },
+    {
+      "id": "c2",
+      "label": "Nonliving",
+      "image": "media/rock.svg",
+      "imageAlt": "A gray rock",
+      "audio": ""
+    }
+  ],
+  "items": [
+    {
+      "id": "i1",
+      "text": "dog",
+      "image": "",
+      "imageAlt": "",
+      "audio": "",
+      "category": "c1"
+    },
+    {
+      "id": "i2",
+      "text": "flower",
+      "image": "",
+      "imageAlt": "",
+      "audio": "",
+      "category": "c1"
+    },
+    {
+      "id": "i3",
+      "text": "fish",
+      "image": "",
+      "imageAlt": "",
+      "audio": "",
+      "category": "c1"
+    },
+    {
+      "id": "i4",
+      "text": "",
+      "image": "media/tree.svg",
+      "imageAlt": "A tree",
+      "audio": "",
+      "category": "c1"
+    },
+    {
+      "id": "i5",
+      "text": "chair",
+      "image": "",
+      "imageAlt": "",
+      "audio": "",
+      "category": "c2"
+    },
+    {
+      "id": "i6",
+      "text": "pencil",
+      "image": "",
+      "imageAlt": "",
+      "audio": "",
+      "category": "c2"
+    },
+    {
+      "id": "i7",
+      "text": "ball",
+      "image": "",
+      "imageAlt": "",
+      "audio": "",
+      "category": "c2"
+    },
+    {
+      "id": "i8",
+      "text": "rock",
+      "image": "media/rock.svg",
+      "imageAlt": "A gray rock",
+      "audio": "",
+      "category": "c2"
+    }
+  ],
+  "feedback": {
+    "correct": "Nice work. Every card is in the right group.",
+    "tryAgain": "Some cards need another look. They moved back down so you can try again."
+  },
+  "endMessage": "You sorted living and nonliving things.",
+  "stem": "custom"
+}
