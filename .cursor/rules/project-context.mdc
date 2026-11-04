@@ -1,0 +1,11 @@
+---
+description: Background, decisions, design rules, and plans for the Sort Interactive and Sort Studio
+alwaysApply: true
+---
+Before making changes in this repo, read AGENTS.md at the repo root. It has the full project background, how the player and studio work, the Fanny Pack design rules, testing steps, and the publishing plan.
+
+Key reminders:
+- After any change to sort/index.html, run `python tools/build_studio.py` so the studio's built-in preview copy matches.
+- Keep the page background plain Pearl Brush with no added color.
+- Never put tokens, keys, or internal-only URLs in this public repo.
+- Explain technical terms in plain English, and offer clear options when a decision is Court's to make.

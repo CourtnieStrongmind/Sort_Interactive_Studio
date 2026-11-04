@@ -4,7 +4,7 @@ A reusable sorting activity. Students drag cards into 2 to 4 groups, press Check
 
 ## Style
 
-Both the player and the Studio use StrongMind's Fanny Pack design system: Poppins for headings and buttons, Nunito Sans for body text, Lilac Bush pill buttons, Pearl Brush backgrounds, Highland for correct, and Cinnabar for errors. Group colors use Lilac Bush, Breaker Bay, Cello, and Pearl Brush, so they never look like right or wrong feedback. Icons are inline SVG, with no emoji.
+Both the player and the Studio use StrongMind's Fanny Pack design system: Poppins for headings and buttons, Nunito Sans for body text, Lilac Bush pill buttons, Pearl Brush backgrounds, Highland for correct, and Cinnabar for errors. Group colors use Lilac Bush, Breaker Bay, Pearl Brush, and Cello, so they never look like right or wrong feedback. Icons are inline SVG, with no emoji.
 
 ## Folder layout
 
@@ -28,11 +28,11 @@ These assume the repo is named `sort-interactive`, following the usual `https://
 
 - Player: `https://interactives.strongmind.com/sort-interactive/sort/index.html?set=<activity-name>`
 - Studio: `https://interactives.strongmind.com/sort-interactive/studio/sort/index.html`
-- Sample: `https://interactives.strongmind.com/sort-interactive/sort/index.html?set=sample-living-nonliving`
+- Sample: `https://interactives.strongmind.com/sort-interactive/sort/index.html?set=sample-developmental-domains`
 
 The Studio shows the student link, with a Copy button, after an activity is published.
 
-Embed the player link in Helios the same way as other interactives. It includes iframe-resizer 4.2.11, so the frame grows to fit.
+Embed the player link in Course Builder, and eventually Course Pro, the same way as other interactives. It includes iframe-resizer 4.2.11, so the frame grows to fit.
 
 ## How authors make an activity (for now)
 

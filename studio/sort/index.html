@@ -245,8 +245,8 @@
     /* Group colors avoid the success (Highland) and error (Cinnabar) palettes */
     --cat-1: var(--lilac-bush-700);  --cat-1-line: var(--lilac-bush-600);  --cat-1-bg: var(--lilac-bush-50);
     --cat-2: var(--breaker-bay-800); --cat-2-line: var(--breaker-bay-600); --cat-2-bg: var(--breaker-bay-50);
-    --cat-3: var(--cello-800);       --cat-3-line: var(--cello-600);       --cat-3-bg: var(--cello-50);
-    --cat-4: var(--pearl-brush-700); --cat-4-line: var(--pearl-brush-500); --cat-4-bg: var(--pearl-brush-100);
+    --cat-3: var(--pearl-brush-700); --cat-3-line: var(--pearl-brush-500); --cat-3-bg: var(--pearl-brush-100);
+    --cat-4: var(--cello-800);       --cat-4-line: var(--cello-600);       --cat-4-bg: var(--cello-50);
   }
   * { box-sizing: border-box; }
   [hidden] { display: none !important; }
@@ -859,7 +859,7 @@
     tryAgain: "Some cards need another look. They moved back down so you can try again.",
     endMessage: "You sorted every card."
   };
-  var CAT_COLORS = ["#7E4BA3", "#00615F", "#004D67", "#84594A"];
+  var CAT_COLORS = ["#7E4BA3", "#00615F", "#84594A", "#004D67"];
   var STEMS = [
     { id: "belongs", label: "Drag each card to the group where it belongs", text: function () { return "Drag each card to the group where it belongs. When every card is sorted, press Check."; } },
     { id: "which", label: "Is it ___ or ___? Sort each card", text: function (g) { return g ? "Is it " + g + "? Sort each card into the correct group." : "Which group does each card belong in? Sort each card into the correct group."; } },
@@ -1435,7 +1435,7 @@
     }).then(function (j) {
       body.innerHTML = "";
       body.appendChild(h("div", { class: "result" }, [
-        h("strong", { text: "Published! Paste this link into Helios." }), linkRow(j.url || link)
+        h("strong", { text: "Published. Paste this link into Course Builder." }), linkRow(j.url || link)
       ]));
     }).catch(function (err) {
       body.innerHTML = "";

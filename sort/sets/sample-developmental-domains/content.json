@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "type": "sort",
+  "slug": "sample-developmental-domains",
+  "title": "Try It Yourself: Classify by Domain",
+  "stem": "custom",
+  "directions": "Read each behavior. Drag it to the domain that best describes the main skill the child is showing. When every card is sorted, press Check.",
+  "directionsAudio": "",
+  "categories": [
+    { "id": "c1", "label": "Social development", "image": "", "imageAlt": "", "audio": "" },
+    { "id": "c2", "label": "Emotional development", "image": "", "imageAlt": "", "audio": "" },
+    { "id": "c3", "label": "Language and communication development", "image": "", "imageAlt": "", "audio": "" }
+  ],
+  "items": [
+    { "id": "i1", "text": "A 4-year-old takes turns on the slide with a friend.", "image": "", "imageAlt": "", "audio": "", "category": "c1" },
+    { "id": "i2", "text": "A 5-year-old tells a caregiver about a dream from the night before.", "image": "", "imageAlt": "", "audio": "", "category": "c3" },
+    { "id": "i3", "text": "A 3-year-old says, \"I'm sad,\" when her mom leaves for work.", "image": "", "imageAlt": "", "audio": "", "category": "c2" }
+  ],
+  "feedback": {
+    "correct": "Nice work. Each behavior is matched to the domain of its main skill.",
+    "tryAgain": "Some behaviors need another look. Ask what main skill the child is using, then try again."
+  },
+  "endMessage": "You classified each behavior by domain."
+}
